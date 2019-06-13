@@ -2,7 +2,7 @@
   "name": "events-lab",
   "version": "1.0.0",
   "description": "Events Lab",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest --verbose --coverage",
     "lint": "eslint **/*.js"
@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "eslint": "^5.16.0",
+    "nodemon": "^1.19.1",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
